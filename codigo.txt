@@ -1,0 +1,12 @@
+func suma(a, b) = a + b;
+func cuadrado(x) = x * x;
+func potencia(x, y) = x ^ y;
+func promedio(a, b) = (a + b) / 2;
+func volumen_cubo(lado) = lado ^ 3;
+
+print suma(4, 5);
+print cuadrado(3);
+print potencia(2, 4);
+print potencia(3, suma(2, 2));
+print promedio(8, 12);
+print volumen_cubo(5);

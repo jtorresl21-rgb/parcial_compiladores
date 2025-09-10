@@ -1,0 +1,5 @@
+func mult(a, b) = a * b;
+print mult(5);                    // Error: faltan parámetros
+print potencia(2, 3);            // Error: función no definida
+func division(a, b) = a / b;
+print division(10, 0);           // Error: división por cero
